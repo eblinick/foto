@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 760px) {
+	
+ header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+
+header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+ 
+.sign-up {
+	position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+    border: none;
+}
+
+.email, .wait {
+	display: none;
+}
+
+.feature_row {
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+ } 
